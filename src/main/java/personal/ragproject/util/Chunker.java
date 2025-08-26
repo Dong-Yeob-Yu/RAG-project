@@ -27,7 +27,3 @@ public class Chunker {
     }
 }
 
-// TODO :: Embedder(임베딩)
-
-
-// TODO :: Qdrant upsert(벡터 DB 업서트)
