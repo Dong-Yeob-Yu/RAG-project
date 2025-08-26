@@ -41,7 +41,7 @@ public class RagService {
         TransactionSynchronizationManager.registerSynchronization(new TransactionSynchronization() {
             @Override
             public void afterCommit() {
-                ingestTaskExecutor.execute(() -> processor.process(jobId));
+//                ingestTaskExecutor.execute(() -> processor.process(jobId));
             }
         });
 
